@@ -82,6 +82,7 @@
 .cloud {
     color: black;
     transition-duration: 400ms;
+    margin-right: -1.4em;
 }
 
 .pen:hover {
@@ -378,6 +379,7 @@
 .content2-3 p {
     margin-top: 0.8em;
     margin-left: 1.2em;
+    text-align: left;
 }
 
 .content2buttondiv {
@@ -444,6 +446,7 @@
     top: 50%;
     pointer-events: none;
     z-index: 5;
+    min-inline-size: 10em;
 }
 
 .p2div p {
@@ -477,16 +480,47 @@
 
 .content3 {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    overflow-y: auto;
     width: 100%;
     height: 15em;
     background-color: black;
+    text-align: center;
+    overflow: hidden;
 }
 
 .content3img {
-    min-width: 17em;
+    margin-top: 1em;
+}
+
+.content3-1 {
+    width: 25%;
+    background-color: black;
+}
+
+.content3 h1 {
+    text-align: center;
+    margin: 0.5em;
+    color: white;
+}
+
+.content3 p {
+    font-size: 0.9em;
+    margin-top: -1em;
+    color: white;
+}
+
+.content3-2 {
+    width: 25%;
+    background-color: black;
+}
+
+.content3-3 {
+    width: 25%;
+    background-color: black;
+}
+
+.content3-4 {
+    width: 25%;
+    background-color: black;
 }
 
 /* content 3 end */
@@ -495,7 +529,7 @@
 
 .footer {
     width: 100%;
-    background-color: #F7F6F3;
+    background-color: white;
     height: 19em;
     display: flex;
 }
@@ -541,6 +575,7 @@
 
 .footercolumn3 {
     margin: 1em;
+    overflow: hidden;
 }
 
 .footercolumn3 h1 {
@@ -549,6 +584,7 @@
 
 .footercolumn3 p {
     margin-right: 3em;
+    text-align: left;
 }
 
 /* footer end */
